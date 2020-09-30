@@ -63,7 +63,24 @@
 #arr = (a,b,c)
 #print(sorted(arr))
 
-#ex 9 ----
+#ex 9 
+#a = int(input())
+#b = int(input())
+#c = int(input())
+#x = int(input())
+#y = int(input())
+#z = int(input())
+#t = 0
+#if (a > b): t = a, a = b, b = t
+#if (b > c): t = b, b = c, c = t
+#if (a > b): t = a, a = b, b = t
+#if (x > y): t = x, x = y, y = t
+#if (y > z): t = y, y = z, z = t
+#if (x > y): t = x, x = y, y = t
+#if (a == x and b == y and z == c): print("Boxes are equal")
+#elif (a <= x and b <= y and c <= z): print("The first box is smaller than the second one")
+#elif (a >= x and b >= y and c >= z): print("The first box is larger than the second one")
+#else: print("Boxes are incomparable")
 
 #ex 10
 #n = int(input())
