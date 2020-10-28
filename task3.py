@@ -93,24 +93,15 @@
 #res = ans.lower()
 #print(ans[0].upper() + res[1:])
 
-#ex11
-#import re
+#11
 #n = int(input())
 #s = input()
-#z = re.findall('z', s)
-#e = re.findall('e', s)
-#r = re.findall('r', s)
-#o = re.findall('o', s)
-#n = re.findall('n', s)
-#num = min(len(o), len(e), len(z), len(r))
-#len(n) - num
-#len(o) - num
-#len(e) - num
-#num2 = min(len(n), len(o), len(e))
-#for i in range(num2):
-#    print('1', end=' ')
-#for i in range(num):
-#    print('0', end=' ')
+#arr = []
+#for i in range(n):
+#    if s[i] == 'n':
+#        print(1)
+#    if s[i] == 'z':
+#        print(0)
 
 #12
 #n = int(input())
